@@ -1,0 +1,9 @@
+{
+  "name": "@bedegaming/metalsmith-inline-source",
+  "version": "0.0.0",
+  "description": "A metalsmith plugin tied with inline-source to inline static assets, like SVG, JS and CSS",
+  "author": "Alex Newman",
+  "dependencies": {
+    "metalsmith": "^2.1.0"
+  }
+}
