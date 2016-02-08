@@ -4,6 +4,7 @@
   "description": "A metalsmith plugin tied with inline-source to inline static assets, like SVG, JS and CSS",
   "author": "Alex Newman",
   "dependencies": {
+    "inline-source": "^4.2.2",
     "metalsmith": "^2.1.0"
   }
 }
