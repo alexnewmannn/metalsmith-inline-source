@@ -1,7 +1,7 @@
 'use strict';
 
 var _ = require('lodash');
-var inlineSource = require('inline-source');
+var inlineSource = require('inline-source').sync;
 
 /*
  * Iterate through each file name and grab
