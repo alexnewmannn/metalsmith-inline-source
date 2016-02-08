@@ -9,20 +9,10 @@ var inlineSource = require('inline-source');
  * with an inlined version.
  */
 
- //TODO - pass in optinos
-var inline = function() {
+var inline = function(options) {
   return function(files, metalsmith, done) {
-    var keys = _.keys(files);
-    _.each(keys, function(key) {
-      var file = files[key];
-      inlineSource(file.contents, {
-        compress: true
-      }, function(err, html) {
-        if (err) {
-          console.log(err);
-        }
-        file.contents = html;
-      });
+     _.forEach(files, function(file, path, files) {
+      files[path].contents = inlineSource(files[path].contents, options);
     });
 
     done();
