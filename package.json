@@ -1,10 +1,30 @@
 {
-  "name": "@bedegaming/metalsmith-inline-source",
-  "version": "0.0.0",
+  "name": "metalsmith-inline-source",
+  "version": "1.0.0",
   "description": "A metalsmith plugin tied with inline-source to inline static assets, like SVG, JS and CSS",
-  "author": "Alex Newman",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexnewmannn/metalsmith-inline-source.git"
+  },
+  "keywords": [
+    "metalsmith",
+    "inline",
+    "source",
+    "inlinesource",
+    "plugin"
+  ],
+  "author": "Alex Newman <alexnewmannn@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexnewmannn/metalsmith-inline-source/issues"
+  },
+  "homepage": "https://github.com/alexnewmannn/metalsmith-inline-source#readme",
   "dependencies": {
     "inline-source": "^4.2.2",
+    "lodash": "^3.0.0||^4.0.0"
+  },
+  "devDependencies": {
     "metalsmith": "^2.1.0"
   }
 }
