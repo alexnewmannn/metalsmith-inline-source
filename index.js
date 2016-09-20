@@ -12,7 +12,7 @@ var inlineSource = require('inline-source').sync;
 var inline = function(options) {
   return function(files, metalsmith, done) {
      _.forEach(files, function(file, path, files) {
-      files[path].contents = inlineSource(files[path].contents, options);
+      files[path].contents = inlineSource(files[path].contents.toString(), options);
     });
 
     done();
