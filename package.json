@@ -1,6 +1,6 @@
 {
   "name": "metalsmith-inline-source",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A metalsmith plugin tied with inline-source to inline static assets, like SVG, JS and CSS",
   "main": "index.js",
   "repository": {
