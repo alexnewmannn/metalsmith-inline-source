@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/alexnewmannn/metalsmith-inline-source#readme",
   "dependencies": {
-    "inline-source": "^4.2.2",
+    "inline-source": "^4.2.2"
   },
   "devDependencies": {
     "metalsmith": "^2.1.0"
