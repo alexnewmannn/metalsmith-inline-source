@@ -1,6 +1,13 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
+## 1.0.6 - 2017-03-07
+###Added
+- Filters searches to html files
+###Removed
+- Lodash dependency which fixes [#1](https://github.com/alexnewmannn/metalsmith-inline-source/issues/1)
+- Credit [@alex-ketch](https://github.com/alex-ketch)
+
 ## 1.0.5 - 2017-03-07
 ###Added
 - Fixes an issue for `gulpsmith` where file contents is a string, so now converts to a buffer.
