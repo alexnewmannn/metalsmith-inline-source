@@ -21,9 +21,8 @@ var inline = function(options) {
       });
 
       htmlFiles.map(function(path) {
-        files[path].contents = inlineSource(files[path].contents.toString(), options);
+        files[path].contents = new Buffer(inlineSource(files[path].contents.toString(), options)), 'utf8';
       });
-
     done();
   };
 };
